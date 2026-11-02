@@ -1,0 +1,10 @@
+FlatBuffers Python runtime 25.12.19
+Copyright 2014 Google Inc. All rights reserved.
+Licensed under the Apache License, Version 2.0.
+
+The installed wheel does not include a license file. The accompanying LICENSE
+is copied from the upstream source release:
+https://github.com/google/flatbuffers/blob/v25.12.19/LICENSE
+
+The copyright and license declaration above is retained from the runtime's
+flatbuffers/__init__.py. No runtime source was modified.

@@ -1,0 +1,7 @@
+PySide6-Essentials==6.11.2
+Pillow==12.3.0
+rapidocr==3.10.0
+onnxruntime==1.31.0
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+tokenizers==0.21.4

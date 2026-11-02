@@ -1,0 +1,15 @@
+.venv/
+.tmp/
+build/
+dist/
+data/
+**/data/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.onnx
+*.download
+*.zip
+*.exe
+profile.json
+local-settings.json

@@ -1,0 +1,15 @@
+{
+  "最小化": "Minimize",
+  "最大化": "Maximize",
+  "还原": "Restore",
+  "关闭窗口": "Close window",
+  "选择资料库": "Choose a library",
+  "检测到两个资料库，请选择本次使用的位置，记录不会被覆盖。": "Two libraries were found. Choose which one to open. Records will not be overwritten.",
+  "原资料库：{original}\n当前资料库：{current}": "Original library: {original}\nCurrent library: {current}",
+  "打开原资料库": "Open original library",
+  "打开当前资料库": "Open current library",
+  "资料库已在运行，请从系统托盘打开应用。": "This library is already open. Open the app from the system tray.",
+  "发生错误：{error}。详情已写入本地 error.log。": "An error occurred: {error}. Details were written to the local error.log.",
+  "无法启动：{error}\n请确保资料库可写，或使用 --data-dir 指定其他目录。": "Could not start: {error}\nCheck that the library is writable, or choose another directory with --data-dir.",
+  "深灰背景与微光描边，明亮 Windows 蓝强调。": "Dark gray surfaces with subtle borders and bright Windows blue accents."
+}

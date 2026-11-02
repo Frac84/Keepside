@@ -1,0 +1,33 @@
+{
+  "version": "setfit-bge-v1",
+  "labels": [
+    "tech",
+    "learning",
+    "design",
+    "receipts",
+    "tasks",
+    "chat",
+    "media"
+  ],
+  "threshold": 0.425,
+  "max_tokens": 256,
+  "overlap_tokens": 32,
+  "pooling": "normalized_cls",
+  "tokenizer": {
+    "max_length": 256,
+    "padding_side": "right",
+    "truncation_side": "right",
+    "pad_id": 0,
+    "pad_type_id": 0,
+    "pad_token": "[PAD]",
+    "do_lower_case": true
+  },
+  "sha256": {
+    "encoder-fp32.onnx": "00ec00d9006b39962a9719c5c9adc2bcba0f6a54e4f88dbb71d95254d5106d8c",
+    "head.json": "9ff85d80d4a0c5198ba0126191a34d89debd03c44caf904d04f8ea09f7fd17ab",
+    "tokenizer.json": "a8697d2625ebdd891666250429de07d0a3dcf27ec41f6bb970b5f9e16bc2545c"
+  },
+  "source": "BAAI/bge-small-zh-v1.5, locally fine-tuned SetFit synthetic training set",
+  "validation": "Synthetic trial only; not measured accuracy on personal collections.",
+  "long_text": "Every overlapping token window; maximum score per label, at most two final tags."
+}
